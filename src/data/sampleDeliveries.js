@@ -1,0 +1,66 @@
+/**
+ * SmartDelivery - Realistic Sample Delivery Data
+ * Used for Delivery Data Analysis, Dashboard & Empirical Distribution verification.
+ */
+
+export const INITIAL_DELIVERY_DATA = [
+  { orderId: "ORD-1001", distance: 3.2, prepTime: 12, transportTime: 18, totalDeliveryTime: 30, status: "On Time", driver: "Alex Rivera", zone: "Downtown" },
+  { orderId: "ORD-1002", distance: 5.8, prepTime: 15, transportTime: 24, totalDeliveryTime: 39, status: "On Time", driver: "Sam Vance", zone: "North Metro" },
+  { orderId: "ORD-1003", distance: 8.5, prepTime: 20, transportTime: 32, totalDeliveryTime: 52, status: "Delayed", driver: "Elena Rostova", zone: "East Suburban" },
+  { orderId: "ORD-1004", distance: 2.1, prepTime: 10, transportTime: 14, totalDeliveryTime: 24, status: "On Time", driver: "Michael Chang", zone: "Downtown" },
+  { orderId: "ORD-1005", distance: 6.4, prepTime: 18, transportTime: 27, totalDeliveryTime: 45, status: "On Time", driver: "Priya Sharma", zone: "West Suburbs" },
+  { orderId: "ORD-1006", distance: 9.1, prepTime: 22, transportTime: 38, totalDeliveryTime: 60, status: "Delayed", driver: "David Kim", zone: "South Tech Park" },
+  { orderId: "ORD-1007", distance: 4.0, prepTime: 14, transportTime: 21, totalDeliveryTime: 35, status: "On Time", driver: "Alex Rivera", zone: "Downtown" },
+  { orderId: "ORD-1008", distance: 7.2, prepTime: 16, transportTime: 30, totalDeliveryTime: 46, status: "Delayed", driver: "Sam Vance", zone: "North Metro" },
+  { orderId: "ORD-1009", distance: 3.5, prepTime: 11, transportTime: 19, totalDeliveryTime: 30, status: "On Time", driver: "Elena Rostova", zone: "East Suburban" },
+  { orderId: "ORD-1010", distance: 11.0, prepTime: 25, transportTime: 42, totalDeliveryTime: 67, status: "Delayed", driver: "Michael Chang", zone: "Outer Belt" },
+  { orderId: "ORD-1011", distance: 1.8, prepTime: 9,  transportTime: 12, totalDeliveryTime: 21, status: "On Time", driver: "Priya Sharma", zone: "Downtown" },
+  { orderId: "ORD-1012", distance: 4.8, prepTime: 15, transportTime: 23, totalDeliveryTime: 38, status: "On Time", driver: "David Kim", zone: "West Suburbs" },
+  { orderId: "ORD-1013", distance: 6.0, prepTime: 17, transportTime: 26, totalDeliveryTime: 43, status: "On Time", driver: "Alex Rivera", zone: "North Metro" },
+  { orderId: "ORD-1014", distance: 7.8, prepTime: 19, transportTime: 31, totalDeliveryTime: 50, status: "Delayed", driver: "Sam Vance", zone: "East Suburban" },
+  { orderId: "ORD-1015", distance: 3.9, prepTime: 13, transportTime: 20, totalDeliveryTime: 33, status: "On Time", driver: "Elena Rostova", zone: "Downtown" },
+  { orderId: "ORD-1016", distance: 5.2, prepTime: 16, transportTime: 25, totalDeliveryTime: 41, status: "On Time", driver: "Michael Chang", zone: "West Suburbs" },
+  { orderId: "ORD-1017", distance: 8.9, prepTime: 21, transportTime: 36, totalDeliveryTime: 57, status: "Delayed", driver: "Priya Sharma", zone: "South Tech Park" },
+  { orderId: "ORD-1018", distance: 2.7, prepTime: 11, transportTime: 16, totalDeliveryTime: 27, status: "On Time", driver: "David Kim", zone: "Downtown" },
+  { orderId: "ORD-1019", distance: 4.3, prepTime: 14, transportTime: 22, totalDeliveryTime: 36, status: "On Time", driver: "Alex Rivera", zone: "North Metro" },
+  { orderId: "ORD-1020", distance: 6.9, prepTime: 18, transportTime: 29, totalDeliveryTime: 47, status: "Delayed", driver: "Sam Vance", zone: "Outer Belt" },
+  { orderId: "ORD-1021", distance: 5.0, prepTime: 15, transportTime: 25, totalDeliveryTime: 40, status: "On Time", driver: "Elena Rostova", zone: "West Suburbs" },
+  { orderId: "ORD-1022", distance: 3.1, prepTime: 12, transportTime: 17, totalDeliveryTime: 29, status: "On Time", driver: "Michael Chang", zone: "Downtown" },
+  { orderId: "ORD-1023", distance: 7.5, prepTime: 19, transportTime: 32, totalDeliveryTime: 51, status: "Delayed", driver: "Priya Sharma", zone: "South Tech Park" },
+  { orderId: "ORD-1024", distance: 4.5, prepTime: 14, transportTime: 23, totalDeliveryTime: 37, status: "On Time", driver: "David Kim", zone: "North Metro" },
+  { orderId: "ORD-1025", distance: 9.8, prepTime: 24, transportTime: 40, totalDeliveryTime: 64, status: "Delayed", driver: "Alex Rivera", zone: "Outer Belt" },
+  { orderId: "ORD-1026", distance: 2.4, prepTime: 10, transportTime: 15, totalDeliveryTime: 25, status: "On Time", driver: "Sam Vance", zone: "Downtown" },
+  { orderId: "ORD-1027", distance: 6.2, prepTime: 17, transportTime: 27, totalDeliveryTime: 44, status: "On Time", driver: "Elena Rostova", zone: "East Suburban" },
+  { orderId: "ORD-1028", distance: 8.1, prepTime: 20, transportTime: 34, totalDeliveryTime: 54, status: "Delayed", driver: "Michael Chang", zone: "South Tech Park" },
+  { orderId: "ORD-1029", distance: 3.7, prepTime: 13, transportTime: 19, totalDeliveryTime: 32, status: "On Time", driver: "Priya Sharma", zone: "West Suburbs" },
+  { orderId: "ORD-1030", distance: 5.5, prepTime: 16, transportTime: 26, totalDeliveryTime: 42, status: "On Time", driver: "David Kim", zone: "North Metro" },
+  { orderId: "ORD-1031", distance: 10.2, prepTime: 23, transportTime: 41, totalDeliveryTime: 64, status: "Delayed", driver: "Alex Rivera", zone: "Outer Belt" },
+  { orderId: "ORD-1032", distance: 1.5, prepTime: 8,  transportTime: 11, totalDeliveryTime: 19, status: "On Time", driver: "Sam Vance", zone: "Downtown" },
+  { orderId: "ORD-1033", distance: 4.2, prepTime: 13, transportTime: 21, totalDeliveryTime: 34, status: "On Time", driver: "Elena Rostova", zone: "Downtown" },
+  { orderId: "ORD-1034", distance: 6.7, prepTime: 18, transportTime: 28, totalDeliveryTime: 46, status: "Delayed", driver: "Michael Chang", zone: "East Suburban" },
+  { orderId: "ORD-1035", distance: 3.3, prepTime: 12, transportTime: 18, totalDeliveryTime: 30, status: "On Time", driver: "Priya Sharma", zone: "West Suburbs" },
+  { orderId: "ORD-1036", distance: 7.0, prepTime: 19, transportTime: 29, totalDeliveryTime: 48, status: "Delayed", driver: "David Kim", zone: "South Tech Park" },
+  { orderId: "ORD-1037", distance: 5.9, prepTime: 16, transportTime: 26, totalDeliveryTime: 42, status: "On Time", driver: "Alex Rivera", zone: "North Metro" },
+  { orderId: "ORD-1038", distance: 8.8, prepTime: 22, transportTime: 35, totalDeliveryTime: 57, status: "Delayed", driver: "Sam Vance", zone: "Outer Belt" },
+  { orderId: "ORD-1039", distance: 2.9, prepTime: 11, transportTime: 17, totalDeliveryTime: 28, status: "On Time", driver: "Elena Rostova", zone: "Downtown" },
+  { orderId: "ORD-1040", distance: 4.6, prepTime: 14, transportTime: 24, totalDeliveryTime: 38, status: "On Time", driver: "Michael Chang", zone: "West Suburbs" },
+  { orderId: "ORD-1041", distance: 6.3, prepTime: 17, transportTime: 28, totalDeliveryTime: 45, status: "On Time", driver: "Priya Sharma", zone: "East Suburban" },
+  { orderId: "ORD-1042", distance: 9.5, prepTime: 24, transportTime: 39, totalDeliveryTime: 63, status: "Delayed", driver: "David Kim", zone: "Outer Belt" },
+  { orderId: "ORD-1043", distance: 3.8, prepTime: 13, transportTime: 20, totalDeliveryTime: 33, status: "On Time", driver: "Alex Rivera", zone: "Downtown" },
+  { orderId: "ORD-1044", distance: 5.4, prepTime: 15, transportTime: 26, totalDeliveryTime: 41, status: "On Time", driver: "Sam Vance", zone: "North Metro" },
+  { orderId: "ORD-1045", distance: 7.3, prepTime: 19, transportTime: 31, totalDeliveryTime: 50, status: "Delayed", driver: "Elena Rostova", zone: "South Tech Park" },
+  { orderId: "ORD-1046", distance: 2.2, prepTime: 10, transportTime: 14, totalDeliveryTime: 24, status: "On Time", driver: "Michael Chang", zone: "Downtown" },
+  { orderId: "ORD-1047", distance: 4.9, prepTime: 15, transportTime: 24, totalDeliveryTime: 39, status: "On Time", driver: "Priya Sharma", zone: "West Suburbs" },
+  { orderId: "ORD-1048", distance: 8.3, prepTime: 21, transportTime: 34, totalDeliveryTime: 55, status: "Delayed", driver: "David Kim", zone: "Outer Belt" },
+  { orderId: "ORD-1049", distance: 3.6, prepTime: 12, transportTime: 19, totalDeliveryTime: 31, status: "On Time", driver: "Alex Rivera", zone: "Downtown" },
+  { orderId: "ORD-1050", distance: 6.1, prepTime: 17, transportTime: 27, totalDeliveryTime: 44, status: "On Time", driver: "Sam Vance", zone: "North Metro" }
+];
+
+export const DEMO_PREDICTOR_DEFAULT = {
+  mean: 40,
+  stdDev: 8,
+  target: 50,
+  lowerBound: 30,
+  upperBound: 50,
+  distribution: "Normal"
+};
